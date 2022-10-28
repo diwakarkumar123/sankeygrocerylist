@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,100 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body > table{
+  width: 100%;
+
+}
+.header{
+  background-color: yellow;
+  padding: 7px;
+  border-radius: 17px;
+  text-align: center;
+}
+ .header-wrap{
+  font-size: 20px;
+  font-weight: bolder;
+ }
+
+table.list{
+  width:100%;
+
+  /* margin: 9px; */
+}
+.input-wrap{
+background-color: aqua;
+}
+.form-container{
+  /* margin-left: 80px; */
+  background-color: aqua;
+  padding-left: 90px;
+  /* justify-content: center; */
+}
+
+td, th {
+  /* border: 1px solid #dddddd; */
+  text-align: center;
+  padding: 10px;
+
+}
+tr:nth-child(even),table.list thead>tr {
+  background-color: #dddddd;
+}
+.list-wrap{
+  margin-top: 40px;
+}
+
+
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 12px 40px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  /* background-color: aqua; */
+
+}
+
+input[type=submit]{
+  width: 100%;
+  background-color: rgb(12, 163, 60);
+  color: #000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form div.form-action-buttons{
+  text-align: left;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ee;
+  margin-right: 4px;
+}
+
+.container{
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}
+.left-wrap{
+  width: 20%;
+
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.right{
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 30px;
 }
